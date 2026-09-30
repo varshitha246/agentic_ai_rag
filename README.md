@@ -149,7 +149,7 @@ The application provides an option to view the retrieved sources used during the
     │
     └── src/
         ├── graph.py
-        ├── retrieval.py
+        ├── retriever.py
         ├── llm.py
         └── ...
 
