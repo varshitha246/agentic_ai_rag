@@ -1,16 +1,44 @@
-streamlit>=1.64,<2.0
+# -------------------------------
+# Streamlit
+# -------------------------------
+streamlit==1.64.0
 
-langchain>=0.3,<1.0
-langgraph>=0.2,<1.0
-langchain-community>=0.3,<1.0
-langchain-text-splitters>=0.3,<1.0
-langchain-pinecone>=0.2,<1.0
-langchain-groq>=1.0,<2.0
 
-pinecone>=5.0,<8.0
+# -------------------------------
+# LangChain 0.3.x ecosystem
+# -------------------------------
+langchain==0.3.27
+langchain-community==0.3.30
+langchain-text-splitters==0.3.11
 
-sentence-transformers>=5.0,<6.0
+# Compatible Groq integration for LangChain 0.3.x
+langchain-groq==0.3.8
 
-pypdf>=4.0
-python-dotenv>=1.0
-pydantic>=2.0
+# LangGraph
+langgraph==0.6.7
+
+
+# -------------------------------
+# Pinecone
+# -------------------------------
+pinecone==7.3.0
+langchain-pinecone==0.2.12
+
+
+# -------------------------------
+# Embeddings
+# -------------------------------
+sentence-transformers==5.1.2
+
+
+# -------------------------------
+# PDF
+# -------------------------------
+pypdf==6.1.0
+
+
+# -------------------------------
+# Environment / Validation
+# -------------------------------
+python-dotenv==1.1.1
+pydantic==2.11.9
